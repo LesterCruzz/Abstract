@@ -158,6 +158,47 @@ img {
     transition: .2s ease-in;
 }
 
+/* banner */
+
+.banner {
+  background-color:#dadbf1;
+}
+.banner .banner__wrapper .banner__search{
+  position: relative;
+}
+.banner .banner__wrapper .banner__search .search__container {
+  float: right;
+}
+.banner .banner__wrapper .banner__search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem;
+}
+.banner .banner__wrapper .banner__search .search__container input {
+  padding: 2rem;
+  width: 50rem;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #4C5FD5;
+  border-right: none;
+  border-top-left-radius: 3.5px;
+  border-bottom-left-radius: 3.5px;
+}
+.banner .banner__wrapper .banner__search .search__container button {
+  float: right;
+  padding: 2rem;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #fff;
+  font-size: 17px;
+  border: 1px solid #4C5FD5;
+  border-left: none;
+  border-top-right-radius: 3.5px;
+  border-bottom-right-radius: 3.5px;
+  cursor: pointer;
+}
+
 /* Repeatable */
 
 .btn {
