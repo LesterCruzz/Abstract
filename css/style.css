@@ -175,12 +175,17 @@ img {
   align-items: center;
   padding: 10rem;
 }
+.banner .banner__wrapper .banner__search h1 {
+  font-size: 70px;
+  color: #000000;
+  margin-bottom: 1.7rem;
+}
 .banner .banner__wrapper .banner__search .search__container input {
   padding: 2rem;
-  width: 50rem;
+  width: 65rem;
   margin-top: 8px;
   font-size: 17px;
-  border: 1px solid #4C5FD5;
+  border: 1px solid #000000;
   border-right: none;
   border-top-left-radius: 3.5px;
   border-bottom-left-radius: 3.5px;
@@ -192,11 +197,19 @@ img {
   margin-right: 16px;
   background: #fff;
   font-size: 17px;
-  border: 1px solid #4C5FD5;
+  border: 1px solid #000000;
   border-left: none;
   border-top-right-radius: 3.5px;
   border-bottom-right-radius: 3.5px;
   cursor: pointer;
+}
+.banner .banner__wrapper .banner__search .search__container input:hover {
+  border-color: #4C5FD5;
+  transition: .9s ease;
+}
+.banner .banner__wrapper .banner__search .search__container button:hover {
+  border-color: #4C5FD5;
+  transition: .9s ease;
 }
 
 /* Repeatable */
